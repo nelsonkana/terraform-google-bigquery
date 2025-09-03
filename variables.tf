@@ -29,3 +29,8 @@ variable "tables" {
   }))
   default = {}
 }
+
+variable "project_id" {
+  description = "The GCP project ID for the dataset"
+  type        = string
+}
